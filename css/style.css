@@ -1,1 +1,102 @@
+body {
+  --main-color: #1B3764;
+  --secend-color: #FFCA42;
+}
 
+.trusted-btb h2 {
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-size: 42px;
+  position: relative;
+}
+
+.trusted-btb h2::before {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background: var(--secend-color);
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.trusted-btb  .text h3 {
+  color: var(--main-color);
+  font-size: 24px;
+}
+
+.trusted-btb  .text h3 + p {
+  color: #969AA0;
+}
+
+.get-bct {
+  background: var(--main-color);
+}
+
+.get-bct .row {
+  gap: 50px;
+}
+
+.get-bct .text {
+  color: white;
+}
+
+.get-bct .text h2 {
+  font-size: 42px;
+}
+
+.get-bct .text p {
+  color: #B4C7E7;
+  font-size: 19px;
+}
+
+.get-bct .text a {
+  color: white;
+  padding: 10px 20px;
+}
+
+.get-bct .image img {
+  max-width: 100%;;
+}
+
+@media  (max-width: 767px) {
+  .trusted-btb h2,
+  .get-bct .text h2 {
+    font-size: 32px;
+  }
+
+  .trusted-btb h2::before {
+    width: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .trusted-btb h2,
+  .get-bct .text h2 {
+    font-size: 36px;
+  }
+
+  .trusted-btb h2::before {
+    width: 40px;
+  }
+
+  .get-bct .text p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trusted-btb h2,
+  .get-bct .text h2 {
+    font-size: 42px;
+  }
+
+  .trusted-btb h2::before {
+    width: 50px;
+  }
+}
