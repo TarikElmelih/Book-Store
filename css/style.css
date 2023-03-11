@@ -4,7 +4,7 @@ body {
 }
 
 .trusted-btb h2 {
-  color: var(--main-color);
+  color: #1B3764;
   text-transform: capitalize;
   font-size: 42px;
   position: relative;
@@ -14,7 +14,7 @@ body {
   content: "";
   height: 3px;
   width: 50px;
-  background: var(--secend-color);
+  background: #FFCA42;
   position: absolute;
   bottom: 25%;
   left: 50%;
@@ -26,7 +26,7 @@ body {
 }
 
 .trusted-btb  .text h3 {
-  color: var(--main-color);
+  color: #1B3764;
   font-size: 24px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .get-bct {
-  background: var(--main-color);
+  background: #1B3764;
 }
 
 .get-bct .row {
@@ -48,6 +48,18 @@ body {
 
 .get-bct .text h2 {
   font-size: 42px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.get-bct .text h2::before {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background: #FFCA42;
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
 }
 
 .get-bct .text p {
@@ -57,7 +69,12 @@ body {
 
 .get-bct .text a {
   color: white;
-  padding: 10px 20px;
+  padding: 15px 50px;
+  font-weight: 600;
+}
+
+.get-bct .text a:hover {
+  color: #1B3764;
 }
 
 .get-bct .image img {
@@ -70,7 +87,8 @@ body {
     font-size: 32px;
   }
 
-  .trusted-btb h2::before {
+  .trusted-btb h2::before,
+  .get-bct .text h2::before  {
     width: 30px;
   }
 }
@@ -81,7 +99,8 @@ body {
     font-size: 36px;
   }
 
-  .trusted-btb h2::before {
+  .trusted-btb h2::before,
+  .get-bct .text h2::before  {
     width: 40px;
   }
 
@@ -96,7 +115,8 @@ body {
     font-size: 42px;
   }
 
-  .trusted-btb h2::before {
+  .trusted-btb h2::before,
+  .get-bct .text h2::before  {
     width: 50px;
   }
 }
