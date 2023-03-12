@@ -1,1 +1,244 @@
+.trusted-btb h2,
+.what-wyl h2 {
+  color: #1B3764;
+  text-transform: capitalize;
+  font-size: 42px;
+  position: relative;
+}
 
+.trusted-btb h2::before,
+.what-wyl h2::before {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background: #FFCA42;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.trusted-btb  .text h3 {
+  color: #1B3764;
+  font-size: 24px;
+}
+
+.trusted-btb  .text h3 + p {
+  color: #969AA0;
+}
+
+.get-bct {
+  background: #1B3764;
+}
+
+.get-bct .row {
+  gap: 50px;
+}
+
+.get-bct .text {
+  color: white;
+}
+
+.get-bct .text h2 {
+  font-size: 42px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.get-bct .text h2::before {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background: #FFCA42;
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+}
+
+.get-bct .text p {
+  color: #B4C7E7;
+  font-size: 19px;
+}
+
+.get-bct .text a {
+  color: white;
+  padding: 15px 50px;
+  font-weight: 600;
+}
+
+.get-bct .text a:hover {
+  color: #1B3764;
+}
+
+.get-bct .image img {
+  max-width: 100%;;
+}
+
+.what-wyl .what-wyl-elements {
+  gap: 70px;
+}
+
+
+
+.what-wyl .what-wyl-elements .text {
+  color: #1B3764;
+}
+
+.what-wyl .what-wyl-elements .text .box {
+  counter-increment: num 1;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #F4F8FF;
+}
+
+.what-wyl .what-wyl-elements .text .box::before {
+  content: "0" counter(num);
+  background: #FFCA42;
+  color: #1B3764;
+  padding: 10px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.what-wyl .what-wyl-elements .text .box p {
+  color: #1B3764;
+  font-size: 24px;
+}
+
+.what-wyl .what-wyl-elements .image-what-wyl {
+  position: relative;
+}
+
+
+
+.what-wyl .what-wyl-elements .image-what-wyl .image {
+  position: relative;
+}
+
+.what-wyl .what-wyl-elements .image-what-wyl .image::before {
+  content: "";
+  width: 97%;
+  height: 97%;
+  position: absolute;
+  border: 10px solid #FFCA42;
+  z-index: 1;
+}
+
+.what-wyl .what-wyl-elements .image-what-wyl img {
+  max-width: 100%;
+  position: relative;
+  top: -30px;
+  right: 30px;
+  z-index: 10;
+}
+
+@media  (max-width: 767px) {
+  .trusted-btb h2,
+  .get-bct .text h2,
+  .what-wyl h2 {
+    font-size: 32px;
+  }
+
+  .trusted-btb h2::before,
+  .get-bct .text h2::before,
+  .what-wyl h2::before  {
+    width: 30px;
+  }
+
+  .what-wyl .what-wyl-elements .image-what-wyl .image::before {
+    left: 7px;
+    top: 7px;
+  }
+
+  .what-wyl .what-wyl-elements .image-what-wyl img {
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .what-wyl .what-wyl-elements .image-what-wyl .image::before {
+    width: 80%;
+    left: 7px;
+    top: 7px;
+  }
+
+  .what-wyl .what-wyl-elements .image-what-wyl img {
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .trusted-btb h2,
+  .get-bct .text h2,
+  .what-wyl h2 {
+    font-size: 36px;
+  }
+
+  .trusted-btb h2::before,
+  .get-bct .text h2::before,
+  .what-wyl h2::before  {
+    width: 40px;
+  }
+
+  .get-bct .text p {
+    font-size: 18px;
+  }
+
+  .what-wyl .what-wyl-elements .image-what-wyl .image::before {
+    width: 59.5%;
+    left: 9px;
+    top: 8px;
+  }
+  .what-wyl .what-wyl-elements .image-what-wyl img {
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trusted-btb h2,
+  .get-bct .text h2,
+  .what-wyl h2 {
+    font-size: 42px;
+  }
+
+  .trusted-btb h2::before,
+  .get-bct .text h2::before,
+  .what-wyl h2::before  {
+    width: 50px;
+  }
+
+  .what-wyl .what-wyl-elements .image-what-wyl .image::before {
+    content: "";
+    width: 97%;
+    height: 95%;
+    left: 30px;
+    position: absolute;
+    border: 10px solid #FFCA42;
+    z-index: 1;
+  }
+  
+  .what-wyl .what-wyl-elements .image-what-wyl img {
+    max-width: 100%;
+    position: relative;
+    top: -30px;
+    right: 30px;
+    z-index: 10;
+  }
+}
