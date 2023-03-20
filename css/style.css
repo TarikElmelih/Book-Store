@@ -242,6 +242,7 @@
     z-index: 10;
   }
 }
+
 .som{
   background-color: rgb(27, 55, 100);
 }
@@ -380,4 +381,282 @@ width: 20px;
 @font-face{
   font-family:cardo ;
   src:url('/fonts/Cardo-Italic.ttf');
+=======
+
+
+
+
+/* **************************************************************************** */
+/* **************************************************************************** */
+/* **************************************************************************** */
+/* **************************************************************************** */
+
+.section2 {
+    background-color: #F4F8FF;
+    margin: 0;
+    padding: 4rem;
+    max-width: 100%;
+}
+.section2 .card-All{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section2 h2{
+  font-family: Cardo;
+  font-weight: 600;
+    font-size: 2rem;
+}
+.section2 .card1 {
+    display: inline-block;
+    text-align: start;
+    width: 47%;
+    background-color: white;
+    margin: 2rem 1rem 1rem 0;
+    padding: 3rem;
+}
+.section2 .card1 h3{
+  font-family: Cardo;
+    color: #1B3764;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.section2 .card1 h4{
+    color: #1B3764;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 4rem 0 0rem;
+    font-family: Cardo;
+
+}
+.section2 .card1 h4 p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.section2 .card1 h4 span{
+    color: #FFCA42;
+    font-size: 1.4rem;
+
+}
+.section2 .card1 h4 p{
+  display: inline-block;
+}
+.section2 .card1 p{
+  font-size: 1rem;
+  opacity: .6;
+}
+.section2 .card1 .card-text{
+  display: flex;
+}
+.section2 button{
+  font-weight: 600;
+  color: #1B3764;
+  border-radius: 0;
+  padding: 0.9rem 3rem;
+  font-size: .9rem;
+  margin: 2rem 0;
+  font-family: Cardo;
+}
+
+.section2 .card2 p{
+  font-size: .85rem;
+  opacity: .6;
+}
+.section2 .card2 p a{
+  text-decoration: none;
+  opacity: 1 !important;
+  color: #005dfd;;
+}
+
+
+
+
+.section3 h2{
+  font-family: Cardo;
+  font-weight: 600;
+    font-size: 2rem;
+    display: inline-block;
+}
+.section3 .L1{
+  display: inline-block; 
+  width: 30%;
+  margin: 10rem 0 0 0;
+
+}
+.section3 .L1 p{
+  opacity: .6;
+}
+.section3 .L1 .circl h3 , h5{
+  display: inline-block;
+  color: #FFCA42;
+}
+.section3 .L1 .circl h3{
+  font-size: 2.2rem;
+}
+.section3 .L1 .circl h5{
+  font-size: 1.5rem;
+}
+.section3 .L1 .circl p{
+  opacity: 1;
+  font-family: Cardo;
+  color: #1B3764;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 0 0 1rem;
+  font-weight: 600;
+}
+.section3 .L1 h3{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.section3  {
+  display: flex;
+  justify-content: space-around;
+}
+.section3 .L2 {
+  background-color: #1B3764;
+  display: inline-block;
+  padding: 2rem 2rem;
+  width: 22rem;
+  margin: 1rem;
+}
+.section3 .L2 .x1 .x2 .x3 .a1  {
+  margin: 0 0 0 1rem;
+}
+.section3 .L2 .x1 .x2 .x3 .a1 .circl h3 {
+  color:  #FFCA42;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.section3 .L2 .x1 .x2 .x3 .a1 .circl h5 {
+  color:  #FFCA42;
+  font-size: 1rem;
+  display: inline-block;
+}
+.section3 .L2 .x1 .x2 .x3 .a1 h3 {
+  font-family: Cardo;
+  font-size: 1.3rem;
+  color: white;
+}
+.section3 .L2 .x1 .x2 .x3  {
+  display: flex;
+}
+.section3 .L2 .x1 .x2 h3  {
+  color: white;
+  font-family: Cardo;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+.section3 .L2 .x1 .x2 p  {
+    color: white;
+    font-size: 1rem;
+    opacity: .7;
+}
+.section3 .L2-All{
+  display: block;
+  background-color: white;
+}
+.section3 .L2-All .L02{
+  display: flex;
+}
+.section3 .L2-All .L02 .L2{
+  display: block
+}
+.section3 .L2-All .L02 .L2:nth-child(2){
+  position: relative;
+  top: 10rem;
+}
+
+
+
+@media  (max-width: 767px) {
+  .section2 h2 {
+    font-size: 1.5rem;
+}
+  .section3 h2 {
+    font-size: 1.5rem;
+}
+  .section2 .card1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section2 .card1 .card-text {
+    display: block;
+  }
+  .section2 button {
+    padding: 0.5rem 2rem;
+    font-size: .8rem;
+  }
+  .section2 .card1 h3 {
+    font-size: 1.1rem;
+  }
+  .section2 .card1 p {
+    font-size: .8rem;
+}
+.section2 .card1 h4 {
+  font-size: 1rem;
+}
+.section2 .card1 h4 p {
+  font-size: .8rem;
+}
+.section3 {
+  display: block;
+  margin-top: 0 !important;
+  padding: 0 2rem;
+}
+.section3 .L1 {
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0 0 0;
+}
+
+.section3 .L2-All .L02 {
+  display: block;
+}
+.section3 .L2-All .L02 .L2:nth-child(2) {
+  position: sticky;
+}
+.section3 .L2-All .L02 .L2 {
+  margin: 2rem auto;
+}
+.section3 .L2 {
+  margin: 2rem auto;
+  display: block;
+}
+.section3 .L2 .x1 .x2 h3 {
+  font-size: 1rem;
+}
+.section3 .L2 {
+  padding: 1rem 1rem;
+  width: 100%;
+}
+.section3 .L2-All .L02 .L2 {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.section3 .L2 .x1 .x2 p {
+  font-size: .8rem;
+  margin: 1rem 0;
+}
+.section3 .L2 .x1 .x2 .x3 .a1 h3 {
+  font-size: 1.1rem;
+}
+.section3 .L1 p {
+  font-size: .8rem;
+}
+.section3 .L1 .circl p {
+  font-size: 1.1rem;
+}
+.section3 .L1 .circl h3 {
+  font-size: 1.5rem;
+}
+.section3 .L1 .circl h5 {
+  font-size: 1rem;
+}
+.section3 .L1 h3 {
+  font-size: .8rem;
+}
+
 }
