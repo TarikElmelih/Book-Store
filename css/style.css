@@ -1,1 +1,142 @@
+.row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
+.card:hover {
+    transform: scale(1.05);
+}
+
+.text-h1 {
+    color: #1B3764;
+}
+
+.min-hr {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+}
+
+.min-hr1 {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #1B3764;
+}
+
+.Articles {
+    background: #F4F8FF;
+}
+
+.card>p:nth-child(even) {
+    font-family: 'Cardo';
+    font-style: normal;
+    color: #1B3764;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    margin: 25px 0px 0px 25px;
+}
+
+.card>p:nth-child(odd) {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #969AA0;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 21.59px 0px 0px 25px;
+}
+
+.card>div {
+    justify-content: space-around;
+    color: #1B3764;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 20.36px;
+    margin-bottom: 31.8px;
+}
+
+div>a {
+    color: #1B3764;
+}
+
+.get {
+    background-color: #FFCA42;
+    width: 79%;
+    margin: auto;
+}
+
+.get>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #1B3764;
+}
+
+.form-get>[type="submit"] {
+    background-color: #1B3764;
+    border: 2px solid #1B3764;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 115px;
+}
+
+footer {
+    background: #1B3764;
+}
+
+.text-footer {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.te-15 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 19.59px;
+    color: #B4C7E7;
+}
+
+.hr {
+    width: 95%;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .hr {
+        width: 80%;
+    }
+    .form-get>[type="submit"] {
+        font-weight: 700;
+        font-size: 10px;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .form-get>input {
+        font-size: 12px;
+    }
+    .form-get>input::placeholder {
+        font-size: 12px;
+    }
+    .text-footer {
+        font-size: 16px;
+    }
+    .te-15 {
+        font-size: 12px;
+    }
+}
